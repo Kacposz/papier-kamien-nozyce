@@ -1,0 +1,26 @@
+wybor_gracza1 = input('Gracz1 podaj swój wybor : ')
+wybor_gracza2 = input('Gracz2 podaj swój wybor : ')
+
+if wybor_gracza1 == 'papier':
+    if wybor_gracza2 == 'kamien':
+        print ('Gracz 1 wygral')
+        
+if wybor_gracza1 == 'kamien':
+    if wybor_gracza2 == 'nozyce':
+        print ('Gracz 1 wygral')
+        
+if wybor_gracza1 == 'nozyce':
+    if wybor_gracza2 == 'papier':
+        print ('Gracz 1 wygral')
+        
+if wybor_gracza1 == 'papier':
+    if wybor_gracza2 == 'nozyce':
+        print ('Gracz 2 wygral')
+        
+if wybor_gracza1 == 'kamien':
+    if wybor_gracza2 == 'papier':
+        print ('Gracz 2 wygral')
+        
+if wybor_gracza1 == 'nozyce':
+    if wybor_gracza2 == 'kamien':
+        print ('Gracz 2 wygral')
