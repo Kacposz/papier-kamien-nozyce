@@ -1,10 +1,13 @@
-wybor_gracza1 = input('Gracz1 podaj swój wybor : ')
-wybor_gracza2 = input('Gracz2 podaj swój wybor : ')
+wybor_gracza1 = input ('Wybierz papier, kamien lub nozyce')
+wybor_gracza2 = input ('Wybierz papier, kamien lub nozyce')
 
+if wybor_gracza1 == wybor_gracza2:
+    print ('Jest remis')
+    
 if wybor_gracza1 == 'papier':
     if wybor_gracza2 == 'kamien':
         print ('Gracz 1 wygral')
-        
+    
 if wybor_gracza1 == 'kamien':
     if wybor_gracza2 == 'nozyce':
         print ('Gracz 1 wygral')
